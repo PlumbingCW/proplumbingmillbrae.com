@@ -328,3 +328,12 @@ footer .wrap{grid-template-columns:1fr}
 .howcall .gitem span:not(.ck){color:var(--gray);font-size:16px}
 .howcall .gitem .ck{background:var(--amber);color:var(--ink)}
 @media(max-width:820px){.howcall .gcard{grid-template-columns:minmax(0,1fr)}}
+
+/* neighborhood list (home) */
+.nbhd-list{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:16px;margin:18px 0 0;padding:0}
+.nbhd-list li{list-style:none}
+.nbhd-list a{display:flex;flex-direction:column;gap:6px;height:100%;padding:18px;border:1px solid var(--line);border-radius:14px;background:#fff;text-decoration:none;color:var(--ink)}
+.nbhd-list a:hover{border-color:var(--indigo)}
+.nbhd-list strong{font-family:Sora,system-ui,sans-serif;font-size:17px;color:var(--indigo-d)}
+.nbhd-list span{font-size:15px;color:var(--gray);line-height:1.5}
+.nbhd{border-top:1px solid var(--line)}
